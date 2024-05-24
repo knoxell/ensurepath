@@ -1,0 +1,47 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ensurepath"
+description = "Ensure python, pip and with pip installed binarys (scripts for win) are in your PATH variable."
+readme = "README.md"
+version = "0.1.0"
+requires-python = ">=3.7"
+keywords = [
+  "path",
+  "user path",
+  "windows",
+  "linux",
+  "msstore",
+  "ms store",
+  "terminal"
+]
+authors = [
+  { name = "Konxell" },
+]
+maintainers = [
+  { name = "Konxell" },
+]
+license = { file = "LICENSE.md" }
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: The Unlicense (Unlicense)",
+  "License :: Public Domain",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "pip",
+  "userpath~=1.9.2",
+]
+
+[project.urls]
+Issues = "https://github.com/knoxell/ensurepath/issues"
+Repository = "https://github.com/knoxell/ensurepath"
