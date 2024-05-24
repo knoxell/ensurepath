@@ -29,7 +29,7 @@ The need occured for me when we started using pipx in a python class just to use
 That is because the micrsoft store (msstore) install of python does add `python` and `pip` to the path, but not the `scripts` folder where with pip installed shell commands are located.
 I tried to also make this script add pip and python to the path if they are not in yet, but have not tested this further.
 
-## msstroe
+## msstore
 
 If you're installing python from the msstore and also want that the commands that are installed with the installed packages to just work on the comandline, you're exactly right here!
 
