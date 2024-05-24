@@ -17,7 +17,7 @@ def ensurepath():
     need_shell_restart = False
 
     for location in locations:
-        for subdir in ['bin', 'Scripts']:
+        for subdir in ['bin', 'Scripts', '']:
             path = os.path.join(os.path.dirname(location), subdir)
             if os.path.isdir(path):
                 if not userpath.in_current_path(path):
