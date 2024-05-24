@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "ensurepath"
 description = "Ensure python, pip and with pip installed binarys (scripts for win) are in your PATH variable."
 readme = "README.md"
-version = "0.2.3"
+version = "0.2.4"
 requires-python = ">=3.7"
 keywords = [
   "path",

@@ -25,13 +25,13 @@ def ensurepath():
 
     for location in locations:
         # if location is directory and not in PATH add it to the PATH
-        if os.path.isdir(path):
-            if not userpath.in_current_path(path):
-                userpath.append(path)
+        if os.path.isdir(location):
+            if not userpath.in_current_path(location):
+                userpath.append(location)
                 if not path_added:
                     path_added = True
                 print(f"Succes! Added the following path to your PATH environment variables:\n {path}")
-                need_shell_restart = need_shell_restart or userpath.need_shell_restart(path)
+                need_shell_restart = need_shell_restart or userpath.need_shell_restart(location)
 
     if need_shell_restart:
         print("\nPlease now restart your shell or terminal")
