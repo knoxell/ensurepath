@@ -30,7 +30,7 @@ def ensurepath():
                 userpath.append(location)
                 if not path_added:
                     path_added = True
-                print(f"Succes! Added the following path to your PATH environment variables:\n {localtion}")
+                print(f"Succes! Added the following path to your PATH environment variables:\n {location}")
                 need_shell_restart = need_shell_restart or userpath.need_shell_restart(location)
 
     if need_shell_restart:
